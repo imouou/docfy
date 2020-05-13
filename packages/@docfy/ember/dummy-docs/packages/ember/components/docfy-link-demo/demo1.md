@@ -3,9 +3,12 @@
 This is a cool feature
 
 ```hbs template
-This is my Demo:
+<div data-test-id="demo-1">
+  This is my Demo:
 
-<DocfyLink @to={{this.url}}>My Link</DocfyLink>
+  <DocfyLink @to={{this.url}}>My Link</DocfyLink>
+</div>
+<div data-test-id="demo-1-js-data">{{this.url}}</div>
 ```
 
 ```js component
